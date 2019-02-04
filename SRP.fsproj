@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Srp</RootNamespace>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Extensions.fs" />
+    <Compile Include="Utils.fs" />
+    <Compile Include="Models.fs" />
+    <Compile Include="Shared.fs" />
+    <Compile Include="Server.fs" />
+    <Compile Include="Client.fs" />
+  </ItemGroup>
+
+</Project>
